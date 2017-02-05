@@ -49,7 +49,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'collier.urls'
+ROOT_URLCONF = 'antidote.urls'
 
 TEMPLATES = [
     {
@@ -67,7 +67,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'collier.wsgi.application'
+WSGI_APPLICATION = 'antidote.wsgi.application'
 
 
 # Database
